@@ -1,0 +1,305 @@
+body
+{
+	
+}
+.content
+{
+	background-image: url("../assets/tree_bark.png");
+
+}
+
+.name
+{
+	float:left;
+	background-color:#4aaaa5;
+	color:#fff;
+	padding: 21px;
+	margin-left: 40px;
+	font-size: 24px;
+	font-family:  'Abril Fatface', cursive;
+	letter-spacing: 3px;
+}
+
+.nav
+{
+	text-align: right;
+	background-color:white;
+	padding:25px;
+	color:#777777;
+	border-bottom: 2px solid #cccccc;
+	font-family: 'Source Sans Pro', sans-serif;
+	text-decoration: none;
+
+}
+
+p
+{
+	line-height: 120%;
+}
+
+.placeholder
+{
+	height:200px;
+	width: 200px;
+	background-color: #eee;
+	position:relative;
+	left:10px;
+	margin:20px;
+	float:left;
+	max-width: 500px;
+}
+
+.gallerytxt
+{
+	font-family: 'Source Sans Pro', sans-serif;
+	color:white;
+	font-size: 18px;
+	font-weight: bold;
+	background-color: #4aaaa5;
+	text-align: center;
+	padding:10px;
+	position: relative;
+	top:40%;
+
+}
+
+a
+{
+	text-decoration: none;
+	font-size: 16px;
+	padding-right:5px;
+	color:#cccccc;
+	font-family:  'Abril Fatface', cursive;
+	letter-spacing: 1px;
+}
+
+#profile
+{
+	height: 250px;
+	float:left;
+	margin: 15px;
+}
+.main-content
+{
+	float:left;
+	background-color: white;
+	font-family: 'Source Sans Pro', sans-serif;
+	color:#777777;
+	padding:20px;
+	margin:40px;
+	border:20px;
+	position:relative;
+	max-width: 500px;
+}
+
+.connect
+{
+	float:left;
+	background-color:white;
+	font-family: 'Source Sans Pro', sans-serif;
+	color:#777777;
+	padding:20px;
+	width:25%;
+	height:100px;
+	margin:40px 10px 10px 50px;
+	position:relative;
+
+}
+footer
+{
+	clear:both;
+	background-color: #666666;
+	text-align:center;
+	color:#fff;
+	padding-top:30px;
+	padding-bottom: 30px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 12px;
+	border-top: 4px solid #4aaaa5;
+	font-style:'Source Sans Pro', sans-serif;
+
+}
+#footer
+{
+	background-image: url("../assets/tree_bark.png");
+}
+
+#thumbs
+{
+	position:relative;
+
+}
+
+#git
+{
+	position:absolute;
+	left:15px;
+	top:10px;
+}
+
+#slack
+{
+	position:absolute;
+	left:44%;
+	top:10px;
+
+}
+
+#link
+{
+	position:absolute; 
+	right:15px;
+	top:10px;
+}
+
+#hangman
+
+{
+	background-image: url("../images/Ctrl-lego-red.jpg");
+}
+
+#RPG
+{
+	background-image: url("../images/RPG-game-red.jpg");
+}
+
+#trivia
+{
+	background-image: url("../images/Trivia-game-red.jpg");
+}
+
+#infoWidget
+{
+	background-image: url("../images/Info-widget-red.jpg");
+}
+
+#rock
+{
+	background-image: url("../images/Rock-paper-scissors-red.jpg");
+}
+
+#websites
+{
+	background-image: url("../images/Web-design-red.jpg");
+}
+
+
+h3
+{	
+color:#4aaaa5;
+border-bottom: 2px solid #cccccc;
+font-family: 'Abril Fatface', cursive;
+padding-bottom:15px;
+font-weight: bold;
+font-size: 20px;
+margin-bottom: 10px;
+letter-spacing: 3px;
+
+}
+
+
+@media screen and (min-width: 980px) {
+.connect{
+	max-width:200px;
+}
+}
+
+@media screen and (max-width: 980px) {
+
+.gallerytxt{
+	position: relative;
+	top:70%;
+}
+
+#connect{
+	font-size:18px;
+}
+
+.main-content
+{
+
+	padding:20px;
+	width:55%;
+
+}	
+
+.connect{
+	width: 25%;
+	right:5%;
+
+}
+
+.placeholder
+{
+	position:relative;
+	width:200px;
+	height:200px;
+	float:left;
+	margin:25px;
+}
+
+}
+
+
+@media screen and (max-width: 768px) {
+
+.main-content
+{
+
+	padding:20px;
+	width:85%;
+}	
+
+.connect{
+	clear: right;
+	float:left;
+    width:85%;
+    border:20px;
+    padding:20px;
+    right:10px;
+}
+
+#git
+{
+	position:relative;
+	right:0;
+	float:left;
+	top:10px;
+	left:15px;
+}
+
+#slack
+{
+	position:relative;
+	float:left;
+	right:0;
+	left:30px;
+	top:10px;
+
+}
+
+#link
+{
+	position:relative; 
+	float:left;
+	right:0;
+	top:10px;
+	left:45px;
+}}
+
+@media screen and (max-width: 640px) {
+
+
+.name {
+	position:relative;
+	float:none;	
+	text-align: center;
+	margin:0;
+
+}
+
+.nav {
+	text-align: center;
+	display:block;
+}
+}
