@@ -89,7 +89,7 @@ a
 	margin:40px;
 	border:20px;
 	position:relative;
-	max-width: 500px;
+	width: 56%;
 }
 
 .connect
@@ -194,13 +194,15 @@ font-weight: bold;
 font-size: 20px;
 margin-bottom: 10px;
 letter-spacing: 3px;
-
 }
-
 
 @media screen and (min-width: 980px) {
 .connect{
 	max-width:200px;
+}
+
+form{
+	width:100%;
 }
 }
 
@@ -225,7 +227,7 @@ letter-spacing: 3px;
 
 .connect{
 	width: 25%;
-	right:5%;
+	right:1%;
 
 }
 
@@ -236,6 +238,33 @@ letter-spacing: 3px;
 	height:200px;
 	float:left;
 	margin:25px;
+}
+#git
+{
+	position:relative;
+	right:0;
+	float:left;
+	top:10px;
+	left:15px;
+}
+
+#slack
+{
+	position:relative;
+	float:left;
+	right:0;
+	left:30px;
+	top:10px;
+
+}
+
+#link
+{
+	position:relative; 
+	float:left;
+	right:0;
+	top:10px;
+	left:45px;
 }
 
 }
@@ -253,7 +282,7 @@ letter-spacing: 3px;
 .connect{
 	clear: right;
 	float:left;
-    width:85%;
+    width:65%;
     border:20px;
     padding:20px;
     right:10px;
