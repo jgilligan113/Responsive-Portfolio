@@ -10,26 +10,24 @@ body
 
 .name
 {
-	float:left;
-	background-color:#4aaaa5;
-	color:#fff;
-	padding: 21px;
-	margin-left: 40px;
-	font-size: 24px;
-	font-family:  'Abril Fatface', cursive;
-	letter-spacing: 3px;
+	float: left;
+    background-color: #4aaaa5;
+    color: #fff;
+    padding: 1.5% 1% 1.7% 1%;
+    margin-left: 4%;
+    font-size: 24px;
+    font-family: 'Abril Fatface', cursive;
+    letter-spacing: 3px;
 }
 
-.nav
-{
-	text-align: right;
-	background-color:white;
-	padding:25px;
-	color:#777777;
-	border-bottom: 2px solid #cccccc;
-	font-family: 'Source Sans Pro', sans-serif;
-	text-decoration: none;
-
+.nav {
+    text-align: right;
+    background-color: white;
+    padding: 2% 1.8% 2% 0%;
+    color: #777777;
+    border-bottom: 2px solid #cccccc;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-decoration: none;
 }
 
 p
@@ -72,10 +70,23 @@ a
 	font-family:  'Abril Fatface', cursive;
 	letter-spacing: 1px;
 }
+#name, #email {
+	position:relative;
+	width: 95%;
+	height: 18px;
+}
+
+#comment{
+	position:relative;
+	width: 95%;
+	height: 100px;	
+
+}
 
 #profile
 {
-	height: 250px;
+	height: 60%;
+    width: 60%;
 	float:left;
 	margin: 15px;
 }
@@ -86,7 +97,7 @@ a
 	font-family: 'Source Sans Pro', sans-serif;
 	color:#777777;
 	padding:20px;
-	margin:40px;
+    margin: 4% 0% 3% 4%;
 	border:20px;
 	position:relative;
 	width: 56%;
@@ -94,15 +105,15 @@ a
 
 .connect
 {
-	float:left;
-	background-color:white;
-	font-family: 'Source Sans Pro', sans-serif;
-	color:#777777;
-	padding:20px;
-	width:25%;
-	height:100px;
-	margin:40px 10px 10px 50px;
-	position:relative;
+    float: left;
+    background-color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #777777;
+    padding: 20px;
+    width: 25%;
+    height: 100px;
+    margin: 4% 0% 5% 5%;
+    position: relative;
 
 }
 footer
@@ -196,6 +207,11 @@ margin-bottom: 10px;
 letter-spacing: 3px;
 }
 
+input{
+	border-color: #cac7c7;
+    border-width: thin;
+}
+
 @media screen and (min-width: 980px) {
 .connect{
 	max-width:200px;
@@ -272,63 +288,116 @@ form{
 
 @media screen and (max-width: 768px) {
 
-.main-content
-{
+	.main-content
+	{
+	    padding: 20px;
+	    width: 47%;
+	    margin: 5% 5% 5% 5%;
+	}	
 
-	padding:20px;
-	width:85%;
-}	
+	.nav{
+		width: 100%;
+	    text-align: center;
+	    padding-top: 8%;
+	    padding-left: 2%;
+	}
+	.name{
+		    padding: 1.2% 1% 1.7% 1%;
+		    clear:both;
+		    text-align: center;
+		    margin-left:0%;
+		    width:100%;
+	}
+	.connect{
+	    clear: right;
+	    float: left;
+	    width: 29%;
+	    border: 20px;
+	    padding: 20px;
+	    right: 10px;
+	    margin-left:1%;
+	    margin-top: 5%;
+	}
+	.placeholder{
+	float: none;
+    display: block;
+    margin: auto;
+    margin-bottom: 6%;
+	}
 
-.connect{
-	clear: right;
-	float:left;
-    width:65%;
-    border:20px;
-    padding:20px;
-    right:10px;
+	#git
+	{
+		position:relative;
+		right:0;
+		float:left;
+		top:10px;
+		left:15px;
+	}
+
+	#slack
+	{
+		position:relative;
+		float:left;
+		right:0;
+		left:30px;
+		top:10px;
+
+	}
+
+	#link{
+		position:relative; 
+		float:left;
+		right:0;
+		top:10px;
+		left:45px;
+		}
+
+
 }
-
-#git
-{
-	position:relative;
-	right:0;
-	float:left;
-	top:10px;
-	left:15px;
-}
-
-#slack
-{
-	position:relative;
-	float:left;
-	right:0;
-	left:30px;
-	top:10px;
-
-}
-
-#link
-{
-	position:relative; 
-	float:left;
-	right:0;
-	top:10px;
-	left:45px;
-}}
 
 @media screen and (max-width: 640px) {
+	.main-content{
+		width: 75%;
+	}
 
+	#profile{
+	    display: block;
+	    margin: auto;
+	    float: none;
+	    margin-bottom: 3%;
+	    margin-top: 2%;
+	}
 
-.name {
-	position:relative;
-	float:none;	
-	text-align: center;
-	margin:0;
+	.connect {
+	    clear: right;
+	    float: left;
+	    width: 75%;
+	    border: 20px;
+	    padding: 20px;
+		margin: 5%;
+    	right: 0px;
+	}
 
-}
+	.name {
+		position:relative;
+		float:none;	
+		text-align: center;
+		margin:0;
+		width: 100%;
+		text-align: center;
+	    width: 105%;
+	    padding: 3% 0% 2% 0%;
 
-.nav {
-	text-align: center;
-	display:block;
-}
+	}
+
+	.nav {
+		text-align: center;
+		display:block;
+		width:100%;
+		padding-top: 2%;
+	}
+
+	.content{
+		width:105%;
+	}
 }
